@@ -12,11 +12,6 @@ build:
 conda:
   environment: environment-docs.yml
 
-python:
-  install:
-    - method: pip
-      path: .
-
 sphinx:
   builder: html
   fail_on_warning: false
